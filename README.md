@@ -19,7 +19,6 @@
 * [Status do projeto](#status-do-projeto)
 * [Funcionalidades](#funcionalidades)
 * [Acesso ao projeto](#acesso-ao-projeto)
-* [Como abrir e rodar o projeto](#como-abrir-e-rodar-o-projeto)
 * [Estrutura do projeto](#estrutura-do-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Validação do código](#validação-do-código)
@@ -49,21 +48,9 @@ Este projeto é a **Etapa 1 (HTML e CSS)** da disciplina Programação Web Front
 
 ## Acesso ao projeto
 
-- **Site publicado (GitHub Pages):** https://SEU-USUARIO.github.io/educa-mais/
-- **Repositório:** https://github.com/SEU-USUARIO/educa-mais
+- **Site publicado (GitHub Pages):** https://adaniellalima.github.io/educa-mais/
+- **Repositório:** https://github.com/adaniellalima/educa-mais
 - **Vídeo de apresentação:** LINK-DO-VIDEO
-
-## Como abrir e rodar o projeto
-
-O projeto usa apenas HTML e CSS, então não precisa instalar nada.
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/educa-mais.git
-   ```
-2. Abra a pasta no VS Code.
-3. Abra o arquivo `index.html` no navegador (ou use a extensão Live Server).
-4. Navegue pelo fluxo: cadastro (`index.html`) → login (`login.html`) → página principal (`principal.html`).
 
 ## Estrutura do projeto
 
@@ -74,7 +61,7 @@ educa-mais/
 ├── principal.html    # Página principal do projeto
 ├── style.css         # Estilos de todas as páginas
 ├── img/              # Imagens usadas na página principal
-├── validacao/        # Prints das validações do W3C
+├── validacoes/       # Prints das validações do W3C
 └── README.md
 ```
 
@@ -83,22 +70,25 @@ educa-mais/
 - HTML5 com tags semânticas (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - CSS3 (variáveis, Grid, Flexbox e media queries)
 - Fontes do Google Fonts: Fredoka e Nunito
+- Protótipo de alta fidelidade feito no Figma, depois ajustado aos requisitos da disciplina
 - Sem frameworks, conforme o enunciado da disciplina
 
 ## Validação do código
 
-Os prints das validações estão na pasta `validacao/`:
+Os prints das validações estão na pasta `validacoes/`:
 
 - [W3C Markup Validator](https://validator.w3.org/) para o HTML
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) para o CSS
 
 ## Créditos das imagens
 
-LISTE AQUI A ORIGEM DE CADA IMAGEM (site ou autor) usada em `img/`.
+- Sala de aula e professora (Pixabay): https://pixabay.com/pt/vectors/geografia-sala-de-aula-professora-10113450/
+- Roda dos ODS (Impacta ODS): https://impactaods.org.br/wp-content/uploads/2021/07/ods-roda-2-1-400x400.png
+- Cooperação e amizade, mãos (Pixabay): https://pixabay.com/pt/vectors/coopera%C3%A7%C3%A3o-amizade-m%C3%A3os-1301790/
 
 ## Integrantes
 
-| [<img src="https://github.com/SEU-USUARIO.png" width="115" alt="Foto de Daniella Lima"><br><sub>Daniella Lima</sub>](https://github.com/SEU-USUARIO) |
+| [<img src="https://github.com/adaniellalima.png" width="115" alt="Foto de Daniella Lima"><br><sub>Daniella Lima</sub>](https://github.com/adaniellalima) |
 |:---:|
 
-Currículo: [Daniella Lima](LINK-DO-CURRICULO)
+Currículo: [Daniella Lima](https://adaniellalima.github.io/frontend_dani/)
