@@ -50,7 +50,7 @@ Este projeto é a **Etapa 1 (HTML e CSS)** da disciplina Programação Web Front
 
 - **Site publicado (GitHub Pages):** https://adaniellalima.github.io/educa-mais/
 - **Repositório:** https://github.com/adaniellalima/educa-mais
-- **Vídeo de apresentação:** LINK-DO-VIDEO
+- **Vídeo de apresentação:** https://drive.google.com/drive/folders/1EvOh9bSWbf-JNL1rt2Lcw-k502t4nK6J?usp=sharing
 
 ## Estrutura do projeto
 
