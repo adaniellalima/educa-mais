@@ -1,0 +1,244 @@
+:root {
+    --tinta: #1F2A44;
+    --sol: #EFBB1F;
+    --menta: #6DB9BD;
+    --fundo: #D9D9D9;
+    --branco: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito",Arial,sans-serif;
+    background: var(--fundo);
+    color: var(--tinta);
+    line-height: 1.6;
+}
+
+h1,h2,h3 {
+    font-family: "Fredoka",Georgia,serif;
+    line-height: 1.25;
+}
+
+a {
+    color: var(--tinta);
+}
+
+a:focus,button:focus,input:focus,select:focus {
+    outline: 3px solid var(--sol);
+    outline-offset: 2px;
+}
+
+header,footer {
+    background: var(--tinta);
+    color: var(--branco);
+    padding: 1rem 1.5rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    font-family: "Fredoka",Georgia,serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.logo span {
+    color: var(--sol);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: var(--sol);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem 0 2rem;
+}
+
+.hero blockquote {
+    margin: 0 0 1rem;
+    text-align: center;
+    font-family: "Fredoka",Georgia,serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.hero cite {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.botao {
+    display: inline-block;
+    background: var(--sol);
+    color: var(--tinta);
+    border: 0;
+    border-radius: 999px;
+    padding: .6rem 3rem;
+    font: 700 1rem "Fredoka",Georgia,serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: var(--tinta);
+    color: var(--sol);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cartoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 1.5rem;
+    margin: 1rem 0 2rem;
+}
+
+.cartoes article {
+    border: 2px solid var(--tinta);
+    border-radius: 16px;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.cartoes img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.icone {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto .25rem;
+    fill: var(--tinta);
+}
+
+.passos {
+    background: var(--menta);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.ods {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.ods img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.form-caixa {
+    max-width: 460px;
+    margin: 2rem auto;
+    background: var(--branco);
+    border: 2px solid var(--tinta);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+}
+
+.form-caixa label {
+    display: block;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.form-caixa input,.form-caixa select {
+    width: 100%;
+    padding: .6rem;
+    border: 2px solid var(--tinta);
+    border-radius: 8px;
+    font: inherit;
+}
+
+.form-caixa .botao {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+footer .logo {
+    text-align: left;
+}
+
+footer .autor {
+    text-align: right;
+    font-family: "Fredoka",Georgia,serif;
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--sol);
+}
+
+@media (max-width:700px) {
+    .hero,.ods,footer {
+        grid-template-columns: 1fr;
+    }
+    .ods {
+        text-align: center;
+    }
+    .ods img {
+        margin: 0 auto;
+    }
+    footer .logo,footer .autor {
+        text-align: center;
+    }
+}
+
+.oculto {
+    position: absolute;
+    left: -9999px;
+}
